@@ -7,4 +7,4 @@ from .serializers import MusicSerializer
 
 class MusicViewSet(viewsets.ModelViewSet):
     queryset = Music.objects.all()
-    serializers_class = MusicSerializer
+    serializer_class = MusicSerializer
